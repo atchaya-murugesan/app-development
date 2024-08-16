@@ -1,0 +1,55 @@
+/* WeatherApp.css */
+
+.container {
+  background-image: url('https://c0.wallpaperflare.com/preview/572/961/266/sky-dark-light-clouds.jpg'); /* Replace with your image URL */
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  color: white; /* Adjust text color for better visibility */
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 100%;
+  margin: auto;
+  height: 500px;
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  width: 80%;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: white;
+  color:black;
+  cursor: pointer;
+  
+}
+
+button:hover {
+  background-color: #4f95be;
+}
+
+.weather-info {
+  margin-top: 20px;
+}
+
+.error-message {
+  color: red;
+  margin-top: 20px;
+}

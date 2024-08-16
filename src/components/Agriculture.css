@@ -1,0 +1,13 @@
+
+.agri {
+    display: flex;
+    height: 100vh;
+    background-image: url(https://media.gettyimages.com/id/458232979/photo/coastal-karnataka.jpg?s=612x612&w=0&k=20&c=FS7zKcvSlZXZTyczNrWDCm1WJHIJ9wyPpzpDXbU7AwA=);
+    background-size: cover;
+    /* width: 2000px; */
+  }
+  
+  .drawerPaper {
+    background-color:#aed581; 
+  }
+ 
